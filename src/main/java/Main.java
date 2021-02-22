@@ -40,6 +40,7 @@ public class Main {
         for (Method o : al) o.invoke(testObj, null);
         if (afterMethod != null) afterMethod.invoke(testObj, null);
     }
+ /////////
 
 
 
